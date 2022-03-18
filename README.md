@@ -2,7 +2,7 @@
 
 ## Project Description
 
-DOTCOIN is a fully functional cryptocurrency application. It contains current market stats and news, along with cryptocurrencies' data and chart-price.
+DOTCOIN is a fully functional cryptocurrency application. It contains current market stats and news, along with cryptocurrencies' data and price chart.
 DOTCOIN is built with React and Redux-Toolkit and powered by RapidAPI.
 
 Deployed at:
