@@ -1,8 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Row, Col, Select, Typography, Avatar, Card } from "antd";
 import moment from "moment";
 import { useGetCryptoNewsQuery } from "../services/cryptoNewsApi";
 import { useGetCryptosQuery } from "../services/cryptoApi";
+import Loader from "./Loader";
 
 
 const { Text, Title } = Typography;
@@ -14,7 +15,7 @@ const News = ({ simplified }) => {
   const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 6 : 12 });
   const { data } = useGetCryptosQuery(100);
 
-  if (!cryptoNews?.value) return 'Loading...';
+  if (!cryptoNews?.value) return <Loader />;
 
   return (
     <Row gutter={[24, 24]}>
@@ -37,7 +38,7 @@ const News = ({ simplified }) => {
             <a href={news.url} target='_blank' rel='noreferrer'>
               <div className="news-image-container">
                 <Title className="news-title" level={4}>{news.name}</Title>
-                <img style={{maxWidth: '200px', maxHeight: '100px'}} src={news?.image?.thumbnail?.contentUrl || demoImage} />
+                <img style={{ maxWidth: '200px', maxHeight: '100px' }} src={news?.image?.thumbnail?.contentUrl || demoImage} />
               </div>
               <p>
                 {news.description.length > 100 ? `${news.description.substring(0, 100)}...` : news.description}
