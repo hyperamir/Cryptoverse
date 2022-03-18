@@ -12,31 +12,31 @@ DOTCOIN is built with React and Redux-Toolkit and powered by RapidAPI.
 
 - ### Home-Page
 
-![Home-Page](https://github.com/hyperamir/Tenzies/blob/main/docs/sh01.png?raw=true)
+![Home-Page](https://github.com/hyperamir/DOTCOIN/blob/main/docs/Home-Page.png?raw=true)
 
 
 
 - ### Coin-Chart
 
-![Coin-Chart](https://github.com/hyperamir/Tenzies/blob/main/docs/sh02.png?raw=true)
+![Coin-Chart](https://github.com/hyperamir/DOTCOIN/blob/main/docs/Coin-Chart.png?raw=true)
 
 
 
 - ### Coin-Data
 
-![Coin-Data](https://github.com/hyperamir/Tenzies/blob/main/docs/sh02.png?raw=true)
+![Coin-Data](https://github.com/hyperamir/DOTCOIN/blob/main/docs/Coin-Data.png?raw=true)
 
 
 
 - ### News-Search
 
-![News-Search](https://github.com/hyperamir/Tenzies/blob/main/docs/sh02.png?raw=true)
+![News-Search](https://github.com/hyperamir/DOTCOIN/blob/main/docs/News-Search.png?raw=true)
 
 
 
 - ### All-Coins-Search
 
-![All-Coins-Search](https://github.com/hyperamir/Tenzies/blob/main/docs/sh02.png?raw=true)
+![All-Coins-Search](https://github.com/hyperamir/DOTCOIN/blob/main/docs/All-Coins-Search.png?raw=true)
 
 
 
